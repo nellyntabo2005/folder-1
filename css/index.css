@@ -1,0 +1,27 @@
+/* //cascading style sheet commonly reffered to as css is used to style html tags
+over the years css has evolved from vanilla css which was the original css to te original frame works
+this framework uses css rules to design 
+this css includes boots trap,tailwindcss
+
+but for now inorder to understand this frameworks we need to understand vanilla css */
+/* css uses the following syntax and feComponentTransfer
+selectors:they specify which html tag to target 
+properties:refer to the action you want to manipulate to the tag 
+value:how much or ow you want to manipulate the choosen tag by the selector 
+
+//selectors
+they are afew categories used in css
+this are 
+//element selector:this selector is used to select single tags at a go(h1,p,div,h2.etc) 
+te default is just a tag name 
+
+//class selector:this selector is used to select/target multiple tags/elements that belong to the same class at a go(.class1,.class2)
+ te class selector is denoted by the dot syntax eg(first child)
+ //id selector:this selector is used to select a single tag/element that has a unique id(# can belong to th same class
+ but manipulated to take other styles
+
+ pseudo classselector:this selector are used to manipulate nested target:: 
+ :nth-child(),:nth-last-child()
+ :nth-of-type(),:nth-last-of-type()
+ wild selector:denoted by the symbol asteri>>the ppurpose is to select everything in the html document 
+ */

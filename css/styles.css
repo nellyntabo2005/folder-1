@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(107, 107, 197);
+}
+
+//rgb,rgba,hex
+//box model ( padding margin )>>box size
+PADDING:REFERS TO THE SPACES AROUND THE CONTENT//this can be anything inside tags or tags inside tags 
+margin:refers to the space outside the content box that separates te content 
+//border:refers to the border(the physical separation)of the content box
+//types of properties 
+//flexbox
+//grids
+//positioning
+//transitions
+//display
+//pseudo elements
+//pseudo classes
+//media queries
+//animations
+//overflow
+//z-index
+//box-sizing
+
+
