@@ -24,5 +24,53 @@ margin:refers to the space outside the content box that separates te content
 //overflow
 //z-index
 //box-sizing
+flex-wrap>>
+justify-content>>
+align-items>>
+flex-direction>>differrnt elements are directed to either face whether row coloumn row reverse coloumn reverse
+flex-grow>>
+flex-shrink>>
+flex-basis>>
+flex>>flex-flow>>
+flex-wrap>>justify
+
+
+assiging direction property>>firstly you display to flex the declare the direction poperties eg{
+display: flex
+flex-direction: row
+flex-direction:row-reverse;right to left turn over
+flex-direction:column
+flex-direction:column-reverse>>bottom to top turover
+ justify-content:between
+ justify-content:space-between
+ justify-content:space-around
+ justify-content:space-evenly
+  wrapping
+  flex-wrap>>
+  flex-wrap>>
+  flex-shrink>> 
+  flex-grow:>>  
+  flex-basis:>>ratios1.2.3
+  ///
+  text-styling properties::
+  text-align>>aligns the text to the center rigt left or justify;
+  text-justify>justifies the text to the center right left or full;
+  text-align-last>align the last line of the text to the left right center or justify
+  text-justify-last>>justify the last line of the text to the center right left or full
+  text-overflow>>when the text is too long it will be cut off and show the ell
+  text-transform>>transform the text to capitalize upprcase lowercse or none
+  text-indent>>indent the text to the left or right
+  text-decoration>>sets the text overline underlined line through(strike-through) or none
+  text-shadow>>sets the shadow to the text with a colour and a width
+  text-stroke>>sets the stroke to the text with a color and a width
+
+
+
+
+
+
+}
+
+
 
 

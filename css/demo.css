@@ -1,4 +1,51 @@
-{
-    padding:0
-    margin:0
+*{/* universal selector */
+    padding:0;
+    margin:0;
 }
+/* border properties 
+this are properties thst are used that are used 
+to define type of properties i.e 
+border radius : 
+border radius is used to define the radius of the border every single corner(top bottom right left)
+border width:determine the thickness of the border
+border color: determine the color of the border
+border style: determine the style of the border */
+
+.test{
+    border-radius:30px;
+    width:50%;
+    padding: 30px;
+    background-color:black;
+    margin:30px;
+    
+}
+
+
+.parent{/* class selector */
+    background-color: blue;
+    width: 50%;
+    margin:30px auto;
+}
+#second{/* {id selector */
+    background-color: red;
+}
+.child-2 article{
+    font-size: 50px;
+    color: white;
+}
+.child-3 {
+    background-color: hotpink;
+}
+form {/* type element selector */
+    background-color: turquoise;
+    width:100%;
+    display:flex;
+    flex-direction:coloumn;
+    margin:30px auto;
+
+}
+input [type=text], input[type="email"]{/* input selector */
+    
+   color: 
+}
+    
