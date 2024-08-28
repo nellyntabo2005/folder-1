@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>objects</title>
+</head>
+<body>
+    <h1>objects</h1>
+    <script>
+        let car={
+            model:"Toyota V8",
+            year:2022,
+            usesDisel:true,
+            availaBleColors:["silver","white","black"],
+            engine:{
+                turbo:true,
+                capacity:2300,
+                type:"V8"
+            },
+            start:function(key){
+                //anonymous function
+                if(key=="albert"){
+                console.log("starting !!!! vrooooommmmm!");
+            }else{
+                console.log("wrong key");
+            }
+        }
+    }
+
+           console.log(car);
+           car.start("june")//a function inside an object is called a method
+           car.start("albert")//a function inside an object is called a method
+           car.start("hello world")// console is inbuilt in css
+           console.error("some error message")
+
+
+           //js comes with many inbuilt objects,arrray,number,boolean,math,date e.t.c
+           const res=Math.sqrt(49)
+           console.log(res);
+           console.log(Math.PI);
+
+           let total=90
+
+           let mycar=object.create(car)//let my car inherit all properties and methods from the car
+           mycar.model="Mitsubishi"
+           mycar.start(albert)
+           console.log(mycar);
+
+         const names=["nelly" ,"ntabo","bonareri"]
+         console.log(names);
+         console.log(names.reverse);
+         //arrray,string,number,boolean,object--automatically respects objects globally
+         console.log(mycar.model.toUppercase);
+         const userProfileNAme = "John"
+        console.log( userProfileNAme.charAt(0) );
+
+
+    // String and Array methods , Number,Dates,Object
+     //strings----uppercase,lowercase,trim,substring,contains
+     //
+    // Explore 5 string methods 
+    // Explore 5 array methods
+    //push(add numbers at the end of the array),pop---removes last element from an arrya
+    //---unshift( addds more elements to the beginning of the array)
+    //shift---removes the first element from an array
+    //splice---removes elements from an array and adds new elements
+    // Javscript objects - 
+
+</script>
+</body>
+</html>
