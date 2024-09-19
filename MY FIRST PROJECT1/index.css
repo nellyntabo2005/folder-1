@@ -178,9 +178,22 @@ color:  red;
    .image-cont{
     margin-top: 50px; 
    }
+   .contents h1{
+    padding-left: 40%;
+    font-size: 40px;
+    font-style: italic;
+   }
+   .contents p{
+    padding-left: 40px;
+    font-size: 30px;
+    font-weight: 700;
+   }
    .crucial{
     display: flex;
     gap:40px;
+   }
+   .contents-1 a{
+    margin-top: 20px;
    }
    .contents-1{
     background-image: url("./images/new\ image\ 1.avif");
@@ -311,9 +324,14 @@ border-radius: 10px;
     border-radius: 10px;
     font-size: 18px;
     font-weight: 200;
-}.foot-1{
+}
+.places .places-button{
+    float:left;
+}
+.foot-1{
     display: flex;
     flex-direction: row;
+    
 }
 footer{
     background-color: aliceblue;
