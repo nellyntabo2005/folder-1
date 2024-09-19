@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./slide.css">
+    <title>SLIDE</title>
+</head>
+<body>
+    
+    <div class="slide-1 active">
+        <h1> beauty</h1>
+        <img src="./images/imag.new.jpg" alt="beauty"  >
+    </div>
+    <div class="slide-1">
+        <h1> beauty</h1>
+        <img src="./images/imag.new1.jpg" alt="beauty" >
+    </div>
+    <div class="slide-1">
+        <h1> beauty</h1>
+        <img src="./images/images.jpeg" alt="beauty" >
+    </div>
+    <div class="slide-1">
+        <h1> beauty</h1>
+        <img src="./images/imagess.jpeg" alt="beauty" >
+    </div>
+    <div class="slider-controls">
+        <button class="prev-btn"></button>
+        <button type="next-btn"></button>
+    </div>
+    
+
+    <div class="slider-controls">
+        <button class="prev-btn" id="prev">Prev</button>
+        <button class="next-btn" id="next">Next</button>
+    </div>
+    <script src="slide.js">
+    
+
+// script.js
+const sliderWrapper = document.querySelector('.slider-wrapper');
+const images = sliderWrapper.children;
+const prevBtn = document.querySelector('.prev-btn');
+const nextBtn = document.querySelector('.next-btn');
+let currentImageIndex = 0;
+
+// Add event listeners to buttons
+prevBtn.addEventListener('click', () => {
+    currentImageIndex--;
+    if (currentImageIndex < 0) {
+        currentImageIndex = images.length - 1;
+    }
+    updateSlider();
+});
+
+nextBtn.addEventListener('click', () => {
+    currentImageIndex++;
+    if (currentImageIndex >= images.length) {
+        currentImageIndex = 0;
+    }
+    updateSlider();
+});
+
+// Update slider function
+function updateSlider() {
+    // Remove active class from all images
+    for (let i = 0; i < images.length; i++) {
+        images[i].classList.remove('active');
+    }
+    // Add active class to current image
+    images[currentImageIndex].classList.add('active');
+}
+
+// Initialize slider
+updateSlider();</script>
+    
+</body>
+</html>
