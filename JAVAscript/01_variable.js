@@ -22,10 +22,19 @@ console.log(user1);
 console.log(user1);
 
 //browser alerts--input--output
-const response=confirm("are you ready for this???");
+/* const response=confirm("are you ready for this???");
 
 console.log(response);//a boolead--true or false
-
-const age=prompt("what is your age");
+ */
+/* const age=prompt("what is your age");
 console.log(age);
 //forms are the standard way of getting user input
+ */
+// single quotes can be used to identify a string
+var myStr='this is me.  '+'this is my star';
+console.log(myStr);
+
+var myName="Nelly";
+var otherString="hello i like you  "
+otherString+=myName;
+console.log(otherString);

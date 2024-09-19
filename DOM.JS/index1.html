@@ -1,0 +1,28 @@
+//create 2 tags in html a button and a paragraph that when the window is loaded the color of the text is default black ,when the button is clicked it checks whether the color of the paragraph is green else if it is another it changes to black else returns to default(red)//
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="sweet" style="background-color: green;">kulosa</button>
+    <p id="sweet1" style=" width: 15%;">hello world</p>
+    <script>
+        let btn=document.getElementById('sweet');
+        let paragraph=document.getElementById('sweet1')
+
+        btn.addEventListener("click",()=>{
+          if((paragraph.style.color=="green")){
+            paragraph.style.color="red"
+          }else{
+            paragraph.style.color="green"
+          }
+          
+        })
+    </script>
+    
+</body>
+</html>

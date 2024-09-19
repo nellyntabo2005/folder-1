@@ -4,7 +4,7 @@ function checkifPalindrome(value) {
     let reversedValue=""
     if(typeof value=="string"){
         //reverse the string
-        for(let index=value.length-1; index>=0; index--){
+       for(let index=value.length-1; index>=0; index--){
             reversedValue+=value.charAt(index);
         }
         if(value ==reversedValue){

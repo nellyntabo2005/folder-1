@@ -11,7 +11,7 @@ const  vowels =[ "a","e","i","o","u"]
 function Countvowels(str){
     let numberofVowels=0
     let charactersArray=str.split("")
-    charactersArray.array.forEach( function checkifVowel(letter){
+    charactersArray.forEach(function checkifVowel(letter){
              if (vowels.includes(letter.toLowerCase()) ){
     numberofVowels++
 }
